@@ -14,7 +14,7 @@ export default function AboutPage() {
                     We are passionate about building performant, accessible, and beautiful web experiences.
                 </p>
                 <div className="prose dark:prose-invert max-w-none mt-8">
-                    <h2>Our Mission</h2>
+                    <h2>Our Missions</h2>
                     <p>
                         To empower businesses with cutting-edge web technology, ensuring they stand out in the digital landscape
                         with superior performance and remarkable design.
