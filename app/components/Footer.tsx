@@ -7,44 +7,44 @@ export function Footer() {
             <div className="container mx-auto px-4 md:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div className="space-y-3">
-                        <h3 className="text-lg font-bold text-white tracking-tight">CGS.</h3>
+                        <h3 className="text-lg font-bold text-primary tracking-tight">CGS.</h3>
                         <p className="text-sm text-gray-400">
                             {siteConfig.description}
                         </p>
                     </div>
                     <div className="space-y-3">
-                        <h3 className="text-sm font-semibold text-white uppercase tracking-wider">Company</h3>
+                        <h3 className="text-sm font-semibold text-primary uppercase tracking-wider">Company</h3>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="/about" className="text-sm hover:text-white transition-colors">About Us</Link>
+                                <Link href="/about" className="text-sm hover:text-primary transition-colors">About Us</Link>
                             </li>
                             <li>
-                                <Link href="/services" className="text-sm hover:text-white transition-colors">Services</Link>
+                                <Link href="/services" className="text-sm hover:text-primary transition-colors">Services</Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="text-sm hover:text-white transition-colors">Contact</Link>
+                                <Link href="/contact" className="text-sm hover:text-primary transition-colors">Contact</Link>
                             </li>
                         </ul>
                     </div>
                     <div className="space-y-3">
-                        <h3 className="text-sm font-semibold text-white uppercase tracking-wider">Legal</h3>
+                        <h3 className="text-sm font-semibold text-primary uppercase tracking-wider">Legal</h3>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="#" className="text-sm hover:text-white transition-colors">Privacy Policy</Link>
+                                <Link href="#" className="text-sm hover:text-primary transition-colors">Privacy Policy</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-sm hover:text-white transition-colors">Terms of Service</Link>
+                                <Link href="#" className="text-sm hover:text-primary transition-colors">Terms of Service</Link>
                             </li>
                         </ul>
                     </div>
                     <div className="space-y-3">
-                        <h3 className="text-sm font-semibold text-white uppercase tracking-wider">Social</h3>
+                        <h3 className="text-sm font-semibold text-primary uppercase tracking-wider">Social</h3>
                         <ul className="space-y-2">
                             <li>
-                                <a href={siteConfig.links.twitter} target="_blank" rel="noreferrer" className="text-sm hover:text-white transition-colors">Twitter</a>
+                                <a href={siteConfig.links.twitter} target="_blank" rel="noreferrer" className="text-sm hover:text-primary transition-colors">Twitter</a>
                             </li>
                             <li>
-                                <a href={siteConfig.links.github} target="_blank" rel="noreferrer" className="text-sm hover:text-white transition-colors">GitHub</a>
+                                <a href={siteConfig.links.github} target="_blank" rel="noreferrer" className="text-sm hover:text-primary transition-colors">GitHub</a>
                             </li>
                         </ul>
                     </div>

@@ -79,7 +79,7 @@ export default function BlogsPage() {
             <Link
               key={post.slug}
               href={`/blogs/${post.slug}`}
-              className="group flex flex-col rounded-2xl border border-white/5 bg-white/3 hover:bg-white/6 hover:border-white/10 p-6 transition-all duration-300"
+              className="group flex flex-col rounded-2xl border border-primary/5 bg-primary/3 hover:bg-primary/6 hover:border-primary/10 p-6 transition-all duration-300"
             >
               {/* Category Badge */}
               <span
@@ -90,7 +90,7 @@ export default function BlogsPage() {
               </span>
 
               {/* Title */}
-              <h2 className="text-white font-heading text-lg font-bold mb-3 leading-snug group-hover:text-[#ed1d24] transition-colors duration-300">
+              <h2 className="text-primary font-heading text-lg font-bold mb-3 leading-snug group-hover:text-[#ed1d24] transition-colors duration-300">
                 {post.title}
               </h2>
 

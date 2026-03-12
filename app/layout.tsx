@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased min-h-screen flex flex-col bg-background text-foreground">
+      <body className="antialiased min-h-screen flex flex-col bg-background text-foreground" suppressHydrationWarning>
         <Header />
         <main className="flex-1">
           {children}

@@ -29,27 +29,27 @@ export default function ContactPage() {
                         </div>
                     </div>
                 </div>
-                <div className="rounded-xl border border-gray-200 bg-white p-6 md:p-8 shadow-sm dark:border-gray-800 dark:bg-black">
+                <div className="rounded-xl border border-primary/10 bg-primary/5 p-6 md:p-8 shadow-sm dark:border-primary/10 dark:bg-black">
                     <form className="space-y-4">
                         <div className="grid gap-4 sm:grid-cols-2">
                             <div className="space-y-2">
                                 <label htmlFor="first-name" className="text-sm font-medium leading-none">First name</label>
-                                <input id="first-name" className="flex h-10 w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:border-gray-800 dark:bg-black dark:placeholder:text-gray-400" placeholder="John" />
+                                <input id="first-name" className="flex h-10 w-full rounded-md border border-primary/10 bg-primary/5 px-3 py-2 text-sm placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:border-primary/10 dark:bg-black dark:placeholder:text-gray-400" placeholder="John" />
                             </div>
                             <div className="space-y-2">
                                 <label htmlFor="last-name" className="text-sm font-medium leading-none">Last name</label>
-                                <input id="last-name" className="flex h-10 w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:border-gray-800 dark:bg-black dark:placeholder:text-gray-400" placeholder="Doe" />
+                                <input id="last-name" className="flex h-10 w-full rounded-md border border-primary/10 bg-primary/5 px-3 py-2 text-sm placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:border-primary/10 dark:bg-black dark:placeholder:text-gray-400" placeholder="Doe" />
                             </div>
                         </div>
                         <div className="space-y-2">
                             <label htmlFor="email" className="text-sm font-medium leading-none">Email</label>
-                            <input id="email" type="email" className="flex h-10 w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:border-gray-800 dark:bg-black dark:placeholder:text-gray-400" placeholder="john@example.com" />
+                            <input id="email" type="email" className="flex h-10 w-full rounded-md border border-primary/10 bg-primary/5 px-3 py-2 text-sm placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:border-primary/10 dark:bg-black dark:placeholder:text-gray-400" placeholder="john@example.com" />
                         </div>
                         <div className="space-y-2">
                             <label htmlFor="message" className="text-sm font-medium leading-none">Message</label>
-                            <textarea id="message" className="flex min-h-[120px] w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:border-gray-800 dark:bg-black dark:placeholder:text-gray-400" placeholder="How can we help?" />
+                            <textarea id="message" className="flex min-h-[120px] w-full rounded-md border border-primary/10 bg-primary/5 px-3 py-2 text-sm placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:border-primary/10 dark:bg-black dark:placeholder:text-gray-400" placeholder="How can we help?" />
                         </div>
-                        <button type="button" className="inline-flex h-10 w-full items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-700">
+                        <button type="button" className="inline-flex h-10 w-full items-center justify-center rounded-md bg-[#ed1d24] px-4 py-2 text-sm font-medium text-primary shadow transition-colors hover:bg-opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#ed1d24]">
                             Send Message
                         </button>
                     </form>
